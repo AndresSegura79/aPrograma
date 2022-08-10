@@ -1,0 +1,26 @@
+.row{
+    padding: 20x;
+}
+
+div{
+    background-color: rgb(152, 152, 201);
+    text-align: center;
+}
+
+/*estilo foto*/
+@media (min-width: 576px) {
+    #foto{
+        position: absolute;
+        width: 10%;
+        border-radius: 10%;
+        box-shadow: 3px 3px 3px gray;
+        left: 3%;
+        top: 600px;
+    }
+}
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 40%;
+    margin-left: 10px;
+}
